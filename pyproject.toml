@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hh"
+version = "0.1.0"
+description = ""
+authors = ["GG1KENOBI <115966004+GG1KENOBI@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+bs4 = "^0.0.1"
+fake-useragent = "^1.4.0"
+scrapy = "^2.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
